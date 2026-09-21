@@ -5,6 +5,14 @@ abstract class Pessoa{
     public $cpf;
     public $telefone;
     public $email;
-    public $dataNacismento;
+    public $data_nascimento;
     public $endereco;
+
+    public function cadastrar(){
+
+    }
+
+    public static function listar(){
+
+    }
 }
