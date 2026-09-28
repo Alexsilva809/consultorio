@@ -3,7 +3,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
 <body>
         <header class="container-fluid bg-primary py-1">
             <div class="container d-flex">
-                <img src="../images/a.jfif" width="100px" height="100px">
+                <img src="../images/foto.jpeg" width="100px" height="100px">
                 <h1 class="m-auto text-center text-white">CONSUTORIO ODONTOLOGICO QUEBRA DENTE</h1>
             </div>
             
