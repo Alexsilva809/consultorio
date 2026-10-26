@@ -45,4 +45,9 @@ class Paciente extends Pessoa {
         $db = new DataBase('paciente');
         return $db->select($where, $order, $limit, $fields)->fetchAll(PDO::FETCH_CLASS, self::class);
     }
+
+    // Método adicionado para buscar um único registro por ID
+    public static function buscarPorId($id){
+        return (new DataBase('paciente'))->select('id = '.$id)->fetchObject(self::class);
+    }
 }
